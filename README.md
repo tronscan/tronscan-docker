@@ -11,5 +11,7 @@
 </h4>
 
 <p align="center">
-  <a href="#requirements">API</a> •
- </p>
+  <a href="tronscan-api">API</a> •
+</p>
+
+
