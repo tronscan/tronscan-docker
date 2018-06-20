@@ -1,0 +1,19 @@
+version: '3.1'
+
+services:
+  tronscan:
+    image: tronscan/api:latest
+    ports:
+      - "9000:9000"
+    environment:
+      NODE_FULL_IP: "39.104.116.191"
+      NODE_FULL_PORT: "50051"
+      NODE_SOLIDITY_IP: "39.105.66.80"
+      NODE_SOLIDITY_PORT: "50051"
+      ENABLE_SYNC: "true"
+      ENABLE_NETWORK_SCANNER: "true"
+      SECRET_KEY: "aSLtAkzrIY9pTPyboOih"
+  redis:
+    image: redis:4.0
+  pgsql:
+    image: tronscan/db:latest
