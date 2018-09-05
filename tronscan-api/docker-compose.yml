@@ -6,9 +6,9 @@ services:
     ports:
       - "9000:9000"
     environment:
-      NODE_FULL_IP: "39.104.116.191"
+      NODE_FULL_IP: "13.57.30.186"
       NODE_FULL_PORT: "50051"
-      NODE_SOLIDITY_IP: "39.105.66.80"
+      NODE_SOLIDITY_IP: "18.221.34.0"
       NODE_SOLIDITY_PORT: "50051"
       ENABLE_SYNC: "true"
       ENABLE_NETWORK_SCANNER: "true"
